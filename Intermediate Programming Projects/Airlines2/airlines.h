@@ -1,0 +1,13 @@
+void initSeats(int *seats, int size);
+int seatChecker(int *seats, int size);
+int planeChecker(int *seats, int size);
+void displaySeats(int *seats, int size);
+int assignSeats(int *seats, int seatType);
+int firstClassSection(int *seat, int size);
+int economySection(int *seat, int size);
+void boardPass(int seat);
+void drawDBox(int x1, int y1, int x2, int y2);
+void gotoxy(int x, int y);
+void clrscr();
+void menu();
+void end();
